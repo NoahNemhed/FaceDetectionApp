@@ -28,7 +28,7 @@ class Register extends React.Component  {
     if (this.state.email === "" || this.state.name === "" || this.state.password === "") {
       this.setState({ signUpError: 'Invalid input' });
     } else {
-      fetch('https://face-detection-api-hdw7.onrender.com:10000/register', {
+      fetch('https://face-detection-api-hdw7.onrender.com/register', {
         method: 'POST',
         headers: { 'Content-type': 'application/json' },
         body: JSON.stringify({

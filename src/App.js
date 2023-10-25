@@ -104,7 +104,7 @@ class App extends Component {
       .then(response => response.json())
       .then(data => {
         if(data){
-          return fetch('https://face-detection-api-hdw7.onrender.com:10000/image', 
+          return fetch('https://face-detection-api-hdw7.onrender.com/image', 
           {
             method: 'PUT',
             headers: {
