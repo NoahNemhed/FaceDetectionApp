@@ -48,6 +48,14 @@ class Signin extends React.Component  {
       
            
             <div className="md:mb-0 md:w-8/12 lg:w-5/12 xl:w-5/12">
+              <div className="text-neutral-50 text-2xl text-center">
+                <h1>Demo Account</h1>
+                <div className="gap-x-16 pb-2 sm:p-2">
+                <h1>User: admin@hotmail.com</h1>
+                <h1>Pass: admin123</h1>
+                </div>
+                
+              </div>
             <div>
               <h1 className='text-neutral-50 text-2xl text-center'>Login</h1>
             </div>
